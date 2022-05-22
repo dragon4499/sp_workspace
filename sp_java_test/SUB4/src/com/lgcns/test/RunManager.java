@@ -2,10 +2,10 @@ package com.lgcns.test;
 
 import java.util.Date;
 import java.util.HashMap;
-import java.util.LinkedList;
 import java.util.Map;
 import java.util.Queue;
 import java.util.UUID;
+import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
 import org.eclipse.jetty.server.Server;
@@ -17,7 +17,6 @@ public class RunManager {
 	static Queue<String> consumerQueue;
 
 	public static void main(String[] args) throws Exception {
-		// messageQueueMap = new ConcurrentHashMap<>();
 		messageQueueMap = new HashMap<>();
 		consumerQueue = new ConcurrentLinkedQueue<>();
 
@@ -52,12 +51,9 @@ class MessageQueue {
 	private int waitTime;
 
 	public MessageQueue(String name, int size, int processTimeout, int maxFailCount, int waitTime) {
-		// this.queue = new ConcurrentLinkedQueue<>();
-		// this.pendingMap = new ConcurrentHashMap<>();
-		// this.dlq = new ConcurrentLinkedQueue<>();
-		this.queue = new LinkedList<>();
-		this.pendingMap = new HashMap<>();
-		this.dlq = new LinkedList<>();
+		this.queue = new ConcurrentLinkedQueue<>();
+		this.pendingMap = new ConcurrentHashMap<>();
+		this.dlq = new ConcurrentLinkedQueue<>();
 
 		this.name = name;
 		this.size = size;
