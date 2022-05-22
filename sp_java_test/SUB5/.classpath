@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/sp_workspace/sp_java_test/lib/gson-2.8.6.jar" sourcepath="C:/sp_workspace/sp_java_test/lib/gson-2.8.6-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/sp_workspace/sp_java_test/lib/gson-2.8.6-javadoc.jar!/"/>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/sp_workspace/sp_java_test/lib/javax.servlet-api-3.1.0.jar" sourcepath="C:/sp_workspace/sp_java_test/lib/javax.servlet-api-3.1.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/sp_workspace/sp_java_test/lib/javax.servlet-api-3.1.0-javadoc.jar!/"/>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/sp_workspace/sp_java_test/lib/jetty-client-9.4.38.v20210224.jar" sourcepath="C:/sp_workspace/sp_java_test/lib/jetty-client-9.4.38.v20210224-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/sp_workspace/sp_java_test/lib/jetty-client-9.4.38.v20210224-javadoc.jar!/"/>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/sp_workspace/sp_java_test/lib/jetty-http-9.4.38.v20210224.jar" sourcepath="C:/sp_workspace/sp_java_test/lib/jetty-http-9.4.38.v20210224-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/sp_workspace/sp_java_test/lib/jetty-http-9.4.38.v20210224-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/sp_workspace/sp_java_test/lib/jetty-io-9.4.38.v20210224.jar" sourcepath="C:/sp_workspace/sp_java_test/lib/jetty-io-9.4.38.v20210224-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/sp_workspace/sp_java_test/lib/jetty-io-9.4.38.v20210224-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/sp_workspace/sp_java_test/lib/jetty-security-9.4.38.v20210224.jar" sourcepath="C:/sp_workspace/sp_java_test/lib/jetty-security-9.4.38.v20210224-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/sp_workspace/sp_java_test/lib/jetty-security-9.4.38.v20210224-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/sp_workspace/sp_java_test/lib/jetty-server-9.4.38.v20210224.jar" sourcepath="C:/sp_workspace/sp_java_test/lib/jetty-server-9.4.38.v20210224-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/sp_workspace/sp_java_test/lib/jetty-server-9.4.38.v20210224-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/sp_workspace/sp_java_test/lib/jetty-servlet-9.4.38.v20210224.jar" sourcepath="C:/sp_workspace/sp_java_test/lib/jetty-servlet-9.4.38.v20210224-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/sp_workspace/sp_java_test/lib/jetty-servlet-9.4.38.v20210224-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/sp_workspace/sp_java_test/lib/jetty-util-9.4.38.v20210224.jar" sourcepath="C:/sp_workspace/sp_java_test/lib/jetty-util-9.4.38.v20210224-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/sp_workspace/sp_java_test/lib/jetty-util-9.4.38.v20210224-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/sp_workspace/sp_java_test/lib/jetty-util-ajax-9.4.38.v20210224.jar" sourcepath="C:/sp_workspace/sp_java_test/lib/jetty-util-ajax-9.4.38.v20210224-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/sp_workspace/sp_java_test/lib/jetty-util-ajax-9.4.38.v20210224-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
